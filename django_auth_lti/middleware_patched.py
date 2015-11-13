@@ -90,6 +90,7 @@ class MultiLTILaunchAuthMiddleware(object):
                     'launch_presentation_width': request.POST.get('launch_presentation_width', None),
                     'lis_course_offering_sourcedid': request.POST.get('lis_course_offering_sourcedid', None),
                     'lis_outcome_service_url': request.POST.get('lis_outcome_service_url', None),
+                    'lis_result_sourcedid': request.POST.get('lis_result_sourcedid', None),
                     'lis_person_contact_email_primary': request.POST.get('lis_person_contact_email_primary', None),
                     'lis_person_name_family': request.POST.get('lis_person_name_family', None),
                     'lis_person_name_full': request.POST.get('lis_person_name_full', None),
